@@ -7,6 +7,6 @@ const app = new cdk.App();
 new YtIamPassroleStack(app, 'YtIamPassroleStack', {
   env: {
     region: 'ap-southeast-2',
-    account: '612659717478',
+    account: 'your-account-number-here',
   },
 });
